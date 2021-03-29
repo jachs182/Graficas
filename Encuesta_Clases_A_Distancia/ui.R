@@ -19,7 +19,7 @@ shinyUI(
                 tabPanel("Grafica de BARRAS", 
                          plotOutput("grafico1")), #funcion para desplegar los plots con los que se hicieron las tablas buscando un id
                 tabPanel("Grafica de Pastel", plotOutput("grafico")),
-                tabPanel("Histograma", plotOutput("histo"))
+                tabPanel("Grafica 3", plotOutput("histo"))
                 
                 
             )
